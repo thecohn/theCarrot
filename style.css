@@ -1,0 +1,132 @@
+@font-face{
+	font-family: 					circ;
+	src: 							url('includes/fonts/libelsuit.ttf');
+}
+
+@font-face{
+	font-family:					motor;
+	src:							url('includes/fonts/coolvetica.ttf')
+}
+
+
+
+/*   Global styles   */
+
+
+body{
+	font-family: 					motor;
+	background-color:				#242415;
+	font-size: 						1.5em;
+	color:							#96FF73;
+}
+
+h1{
+	font-family:					motor;
+	font-size: 						2em;
+	color: 							#FF7A4D;
+}
+
+textarea{
+	width: 							100%;	
+	background-color:				#8A8A7B;				
+	border:							none;
+	border-bottom:					2xp solid #FFFDE7;
+	color:							#242415;
+}
+
+a{
+
+	text-decoration: 				none;
+
+}
+
+
+
+/*  End of global styles  */
+
+
+
+/*   Class specific styles   */
+
+.nav_buttons{
+	display:  						inline-block;
+	text-decoration:				none;
+	margin-left: 					auto;
+	margin-right: 					auto;
+	color:							#242415;
+	width:  						24%;
+	text-align: 					center;
+	
+}
+
+.nav_buttons a{
+	font-size: 						2em;
+	
+	text-decoration:				none;
+	
+	color:							#242415;
+	
+	text-align: 					center;
+	
+}
+
+
+.forms input[type='text']{
+	width: 							100%;	
+	background-color:				#8A8A7B;				
+	border:							none;
+	color:							#FFFFFF;
+}
+
+
+.title_bar{
+	background-color:				#8A8A7B;	
+
+}
+
+.settings{
+	width:							70%;
+	
+	
+}
+
+.buttons{
+	background-color: 				#8A8A7B;
+	color:							#FFFFFF;
+	padding:						0 15px;
+	line-height: 					29px;
+	border-bottom:					;
+	border-radius: 					5px;
+	margin-left:					auto;
+	margin-right:					auto;
+	font-size: 						18px;
+}
+
+/* End of class styles   */
+
+
+
+/*    ID specific styles    */
+
+
+#nav{
+	margin-top: 					0px;
+	margin-left:					0px;
+	margin-right:					0px;
+	height:  					100px;
+	width:						100%;
+	background-color:				#8A8A7B;
+	
+}
+
+#username_change{
+	display:					none;
+}
+
+#password_change{
+	display: 					none;
+}
+
+
+/*    End of ID styles      */
+ 
